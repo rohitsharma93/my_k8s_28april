@@ -1,4 +1,4 @@
-apiversin: v1
+apiversion: v1
 kind: ReplicationController
 metadata:
   name: mynginx-rc
