@@ -4,6 +4,7 @@ metadata:
   name: javaapp-svc
   labels: 
      app: javaapp
+     version: 2.6.1
 spec:
   type: NodePort
   ports:
@@ -12,4 +13,5 @@ spec:
     protocol: TCP
   selector:
     app: javaapp
+    version: 2.6.1
   
