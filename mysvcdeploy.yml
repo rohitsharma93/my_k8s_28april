@@ -16,6 +16,6 @@ spec:
      spec:
        containers:
        - name: javaapp-container
-         image: rohitsharma93/myjenkins2may:1
+         image: rohitsharma93/myjenkins2may
          ports:
          - containerPort: 8080
