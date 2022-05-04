@@ -14,7 +14,7 @@ spec:
       labels:
         app: javaapp
     spec:
-    containers:
+     containers:
       - name: javaapp-container
         image: rohitsharma93/myjavaapp5may22:1
         ports:
